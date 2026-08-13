@@ -1,27 +1,3 @@
-#import requests
-#import os
-#site = input("Enter site url or filepath: ")
-#site_content = ""
-#try:
-#   if site.startswith("http://") or site.startswith("https://"):
-#      response = requests.get(site)
-#      response.encoding = 'utf-8'
-#      site_content = response.text
-#   else:
-#      with open(site, "r", encoding="utf-8") as file:
-#         site_content = file.read()
-#   print("Read", len(site_content), "characters.")
-#except FileNotFoundError:
-#   print("file not found.")
-#except requests.exceptions.RequestException as e:
-#   print("Error fetching the site:", e)
-
-
-#message = input("Enter notification message: ")
-
-#f len(site_content) >+ 10:
-#   print(message)
-
 import requests
 import time
 import os
